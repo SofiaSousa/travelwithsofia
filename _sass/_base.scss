@@ -247,6 +247,10 @@ header {
         width: 100%;
         height: 100%;
         @include transition-all;
+        &.portfolio-box-caption-fixed {
+            opacity: 1;
+            background: $theme-primary;
+        }
         .portfolio-box-caption-content {
             width: 100%;
             text-align: center;
